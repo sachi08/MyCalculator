@@ -2,7 +2,13 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MyCalculator" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+<!--        <item name="background">@color/my_light_primary</item>-->
+    </style>
+
+    <style name="ActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <!--        <item name="titleTextStyle">@style/ActionBarTitleTextStyle</item>-->
+        <item name="background">@color/my_light_primary</item>
     </style>
 
     <style name="Theme.MyCalculator" parent="Base.Theme.MyCalculator" />
